@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(90deg, lightblue, skyblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: monospace, sans-serif;
+  overflow: hidden;
+}
+
+.calc {
+  padding: 40px 30px;
+  background-color: #0c0b0bb7;
+  margin-bottom: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input-calc {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: antiquewhite;
+}
+
+.input-calc:focus {
+  outline: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+span {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button:hover {
+  background-color: bisque;
+  transition: 0.5s;
+}
+
+.delete {
+  background-color: crimson;
+  color: white;
+}
+
+.divide {
+  background-color: purple;
+  color: white;
+}
+
+.multiply {
+  background-color: royalblue;
+  color: white;
+}
+
+.add {
+  background-color: darkgreen;
+  color: white;
+}
+
+.minus {
+  background-color: darkgray;
+  color: white;
+}
+
+.clear {
+  background-color: coral;
+  color: white;
+  width: 90%;
+}
+
+.equal-sign {
+  background-color: teal;
+  color: white;
+  width: 25%;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
