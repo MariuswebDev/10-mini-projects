@@ -61,7 +61,7 @@ span {
   text-align: center;
 }
 
-button:hover {
+span:hover {
   background-color: bisque;
   transition: 0.5s;
 }
