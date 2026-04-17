@@ -1,9 +1,12 @@
 import React from "react";
-import ToggleBackgroundColor from "./components/ToggleBackgroundColor";
+// import Testimonials from "./components/Testimonials";
+// import ToggleBackgroundColor from "./components/ToggleBackgroundColor";
 // import Calculator from "./components/Calculator";
 // import Meals from "./components/Meals";
 // import Counter from "./components/Counter";
 // import Todo from "./components/Todo";
+import { accordionData } from "./utils/content";
+import Accordion from "./components/Accordion";
 
 const App = () => {
   return (
@@ -12,7 +15,11 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Meals /> */}
       {/* <Calculator /> */}
-      <ToggleBackgroundColor />
+      {/* <ToggleBackgroundColor /> */}
+      {/* <Testimonials /> */}
+      {accordionData.map(({ title, content }) => (
+        <Accordion title={title} content={content} />
+      ))}
     </div>
   );
 };
