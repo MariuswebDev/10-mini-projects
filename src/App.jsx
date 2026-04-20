@@ -1,5 +1,6 @@
 import React from "react";
-import Testimonials from "./components/Testimonials";
+import Form from "./components/Form";
+// import Testimonials from "./components/Testimonials";
 // import ToggleBackgroundColor from "./components/ToggleBackgroundColor";
 // import Calculator from "./components/Calculator";
 // import Meals from "./components/Meals";
@@ -16,10 +17,11 @@ const App = () => {
       {/* <Meals /> */}
       {/* <Calculator /> */}
       {/* <ToggleBackgroundColor /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* {accordionData.map(({ title, content }) => (
         <Accordion title={title} content={content} />
       ))} */}
+      <Form />
     </div>
   );
 };
